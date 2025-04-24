@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rachana Jambhale | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background-color: #0f172a;
+      color: #e0e0e0;
+      display: flex;
+    }
+
+    nav {
+      background-color: #1e293b;
+      width: 220px;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 2rem;
+      position: fixed;
+      left: 0;
+      top: 0;
+    }
+
+    nav a {
+      color: #93c5fd;
+      text-decoration: none;
+      font-weight: 500;
+      margin: 1rem 0;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #60a5fa;
+    }
+
+    .main-content {
+      margin-left: 220px;
+      width: calc(100% - 220px);
+    }
+
+    header {
+      padding: 2rem;
+      text-align: center;
+      background: #1e293b;
+    }
+
+    header img {
+  width: 150px;
+  height: 150px;
+  object-fit:fill;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+
+    h1 {
+      font-size: 2rem;
+      color: #60a5fa;
+    }
+
+    p.bio {
+      margin-top: 0.5rem;
+      color: #cbd5e1;
+    }
+
+    section {
+      padding: 2rem;
+    }
+
+    h2 {
+      color: #93c5fd;
+      margin-bottom: 1rem;
+      border-bottom: 1px solid #334155;
+      padding-bottom: 0.5rem;
+    }
+
+    ul.skills {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    ul.skills li {
+      background: #1e40af;
+      padding: 0.5rem 1rem;
+      border-radius: 12px;
+    }
+
+    .project, .achievement, .activity {
+      margin-bottom: 2rem;
+    }
+
+    .achievement-box {
+      background-color: #1e293b;
+      padding: 1rem;
+      border-radius: 12px;
+      margin-bottom: 1.5rem;
+    }
+    table.activities-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1rem;
+    }
+
+    table.activities-table th, table.activities-table td {
+      border: 1px solid #334155;
+      padding: 0.75rem;
+      text-align: left;
+    }
+
+    table.activities-table th {
+      background-color: #1e40af;
+      color: #f1f5f9;
+    }
+
+    table.activities-table tr:nth-child(even) {
+      background-color: #1e293b;
+    }
+
+    table.activities-table tr:hover {
+      background-color: #334155;
+    }
+    .contact a, .social a, .resume-button {
+      color: #60a5fa;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 0.5rem;
+    }
+
+    .resume-button {
+      margin-top: 1.5rem;
+      padding: 0.5rem 1rem;
+      background: #2563eb;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      transition: background 0.3s ease;
+    }
+
+    .resume-button:hover {
+      background: #1e40af;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #1e293b;
+      color: #94a3b8;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#achievements">Achievements</a>
+    <a href="#activities">Activities</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="main-content">
+    <header>
+      <img src="rachna.jpg">
+      <h1>Rachana Ravindra Jambhale</h1>
+      <p class="bio">First-year Computer Engineering student at MITAOE with a passion for creativity, tech, and solving real-world problems.</p>
+    </header>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>I am Rachana Jambhale, currently pursuing my B.Tech. in Computer Engineering from MITAOE. I'm passionate about coding, communication, creativity, and solving real-world problems. I'm constantly looking for opportunities to learn, grow, and contribute through tech and innovation.</p>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul class="skills">
+        <li>C</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Python</li>
+        <li>Communication</li>
+        <li>Teamwork</li>
+        <li>Creativity</li>
+        <li>Problem Solving</li>
+        <li>Public Speaking</li>
+        <li>Leadership</li>
+        <li>Photography</li>
+        <li>Storytelling</li>
+        <li>Creative Writing</li>
+        <li>Video Editing</li>
+        <li>Canva</li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="project">
+        <h3>Hostel Delivery Solutions</h3>
+        <p>A design thinking project to solve delivery issues in local areas where apps like Zepto/Blinkit don't operate. Includes a flexible model for students to earn money by delivering on demand.</p>
+      </div>
+      <div class="project">
+        <h3>Book Recommendation System</h3>
+        <p>Developed a content-based recommendation system using cosine similarity and Python to suggest Books to users based on titles they like. Integrated basic search functionality with user-friendly output.</p>
+      </div>
+      <div class="project">
+        <h3>House Helpers Booking App Idea</h3>
+        <p>An on-demand booking app for maids, plumbers, carpenters, babysitters, and more—modeled like Uber for home services. Offers flexible hourly to yearly plans, aiming to make post-work life comfortable and relaxed.</p>
+      </div>
+      <div class="project">
+        <h3>She Fell First - Story</h3>
+        <p>A Romcom college-based novel showcasing emotional depth and a journey of unreciprocated love evolving into a heartfelt connection. Focused on storytelling and character development.</p>
+      </div>
+
+    <section id="achievements">
+      <h2>Achievements</h2>
+      <div class="achievement-box">
+        <p><strong>10th Grade:</strong> 93.60%</p>
+        <p><strong>12th Grade:</strong> 80%</p>
+        <p><strong>CET Score:</strong> 90 percentile</p>
+        <p><strong>Linux Certified</strong></p>
+        <p><strong>Cisco NetAcad Python Certified</strong></p>
+        <p><strong>NASSCOM Certified</strong></p>
+      </div>
+    </section>
+
+    <section id="activities">
+      <h2>Extra-Curricular Activities</h2>
+      <table class="activities-table">
+        <thead>
+          <tr>
+            <th>Activity</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Photography</td>
+            <td>Exploring visual storytelling through lenses and capturing moments with creativity.</td>
+          </tr>
+          <tr>
+            <td>Public Speaking</td>
+            <td>Confident stage presence, active in hosting college events and academic presentations.</td>
+          </tr>
+          <tr>
+            <td>Creative Writing</td>
+            <td>Authoring a romcom fiction story, writing poems, writing songs etc.</td>
+          </tr>
+          <tr>
+            <td>Singing</td>
+            <td>Learned classical Music and certified in 2 Exams.</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <section id="contact">
+      <h2>Contact</h2>
+      <p class="contact">Email: <a href="mailto:202401040372@mitaoe.ac.in">202401040372@mitaoe.ac.in</a></p>
+      <p class="social">LinkedIn: <a href="https://www.linkedin.com/in/rachna-jambhale-981a50315" target="_blank">@rachna-jambhale</a></p>
+      <p class="social">GitHub: <a href="https://github.com/rachnajambhale" target="_blank">@rachnajambhale</a></p>
+      <a href="Rachana_Jambhale_Resume.docx" class="resume-button" download>Download Resume</a>
+    </section>
+
+    <footer>
+      <p>Designed & Developed by Rachana Jambhale © 2025</p>
+    </footer>
+  </div>
+</body>
+</html>
