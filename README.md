@@ -1,2 +1,2 @@
 # My Portfolio
-just a basic portfolio created asa F.Y student.
+just a basic portfolio created as a F.Y student.
